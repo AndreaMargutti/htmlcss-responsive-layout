@@ -199,6 +199,20 @@ h2 > span {
     padding: 0 20px;
 }
 
+/* # Recipe */
+
+#recipe-descrition h3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#recipe-descrition div {
+    margin-bottom: 20px;
+    border: 1px solid var(--primary-color);
+    width: 75px;
+}
+
 /* # Responsive */
 
 /*resposive for tablet*/
