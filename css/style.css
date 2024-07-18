@@ -1,6 +1,6 @@
 /* # custom proprieties*/
 :root{
-    --elements-color: #FF9614;
+    --primary-color: #FF9614;
 }
 
 /* # css reset*/
@@ -16,9 +16,10 @@ body {
 body {
     font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
 }
+
 /*titles*/
 h1 {
-    color: var(--elements-color);
+    color: var(--primary-color);
     font-family: 'Nerko One', cursive;
     font-size: 3.5em;
     text-transform: uppercase;
@@ -35,10 +36,21 @@ h4 {
     font-weight: 300;
 }
 
+/*btn*/
+
+.btn {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-color: var(--primary-color);
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
 /* # utilities*/
 
 .container {
-    max-width: 1200px;
+    max-width: 580px;
     margin: 0 auto;
 }
 
@@ -49,7 +61,14 @@ h4 {
 /*icons*/
 
 i.yellow {
-    color: var(--elements-color);
+    color: var(--primary-color);
+}
+
+/*bold text*/
+
+.txt-bold {
+    color: black;
+    font-weight: 700;
 }
 
 /* # recipe-info*/
@@ -58,6 +77,7 @@ i.yellow {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .recipe-title {
@@ -66,6 +86,7 @@ i.yellow {
 
 .recipe-rate {
     flex-basis: 50%;
+    text-align: end;
 }
 
 /* # Responsive */
