@@ -231,6 +231,13 @@ img[alt="tiramisu"] {
     margin: 0 auto;
 }
 
+/* # Footer */
+
+footer {
+    height: 100px;
+    background-color: #7C69A4;
+}
+
 /* # Responsive */
 
 /*resposive for tablet*/
