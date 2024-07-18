@@ -45,6 +45,10 @@ li {
     margin-bottom: 15px;
 }
 
+img {
+    width: 100%;
+}
+
 /* # utilities*/
 
 .container {
@@ -93,7 +97,7 @@ i.yellow {
 
 /* # recipe-info*/
 
-.recipe-info {
+#recipe-info {
     padding: 20px
 }
 
@@ -106,6 +110,10 @@ i.yellow {
 
 .recipe-title {
     flex-basis: 50%;
+}
+
+h2 > span {
+    display: none;
 }
 
 .recipe-rate {
@@ -178,10 +186,39 @@ i.yellow {
     color: #E62222;
 }
 
+/* # Banner */
+
+.banner {
+    margin-top: 30px;
+    display: none;
+}
+
 /* # Responsive */
 
 @media screen and (min-width:768px) {
     h1 {
         text-align: left;
+        margin-left: 20px;
+    }
+
+    h2 > span {
+        display: inline;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    li {
+        flex-basis: calc(100% / 3);
+    }
+
+    #social > * {
+        padding: 10px 40px;
+}
+
+    .banner {
+        display: block;
     }
 }
