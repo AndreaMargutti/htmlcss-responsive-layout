@@ -249,6 +249,12 @@ img[alt="tiramisu"] {
     .banner {
         display: block;
     }
+
+    /*img tiramisù*/
+    img[alt="tiramisu"] {
+        float: left;
+        margin-right: 10px;
+    }
 }
 
 /*responsive for desktop*/
