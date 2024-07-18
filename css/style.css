@@ -21,10 +21,6 @@ h1 {
     text-align: center;
 }
 
-main {
-    height: 500px;
-}
-
 /*utilities*/
 
 .container {
@@ -36,6 +32,13 @@ main {
     background-color: #F6F5F3;
 }
 
+/*recipe-info*/
+
+.recipe-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 /* # Responsive */
 
