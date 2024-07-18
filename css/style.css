@@ -206,6 +206,10 @@ h2 > span {
 
 /* # Recipe */
 
+#recipe-descition  {
+    padding: 20px;
+}
+
 #recipe-descrition h3 {
     text-transform: uppercase;
     font-size: 1.5rem;
