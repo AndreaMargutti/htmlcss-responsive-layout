@@ -45,10 +45,6 @@ li {
     margin-bottom: 15px;
 }
 
-img {
-    width: 100%;
-}
-
 /* # utilities*/
 
 .container {
@@ -199,6 +195,10 @@ h2 > span {
     padding: 0 20px;
 }
 
+.banner > img {
+    width: 100%;
+}
+
 /* # Recipe */
 
 #recipe-descrition h3 {
@@ -211,6 +211,11 @@ h2 > span {
     margin-bottom: 20px;
     border: 1px solid var(--primary-color);
     width: 75px;
+}
+
+img[alt="tiramisu"] {
+    display: block;
+    margin: 0 auto;
 }
 
 /* # Responsive */
@@ -240,7 +245,7 @@ h2 > span {
     #social > * {
         padding: 10px 40px;
 }
-
+    /*banner pubblicitario*/
     .banner {
         display: block;
     }
