@@ -166,6 +166,11 @@ h2 > span {
 }
 
 /*incons*/
+
+#social .txt-bold {
+    display: none;
+}
+
 .fa-facebook {
     color: #1A77F3;
 }
@@ -195,16 +200,19 @@ h2 > span {
 
 /* # Responsive */
 
+/*resposive for tablet*/
+
 @media screen and (min-width:768px) {
+    /*title*/
     h1 {
         text-align: left;
         margin-left: 20px;
     }
-
+    /*comparsa secondo titolo*/
     h2 > span {
         display: inline;
     }
-
+    /*list*/
     ul {
         display: flex;
         flex-wrap: wrap;
@@ -213,12 +221,22 @@ h2 > span {
     li {
         flex-basis: calc(100% / 3);
     }
-
+    /*icons*/
     #social > * {
         padding: 10px 40px;
 }
 
     .banner {
         display: block;
+    }
+}
+
+/*responsive for desktop*/
+
+@media screen and (min-width: 992px) {
+    /*display social icons text*/
+
+    #social .txt-bold {
+        display: inline;
     }
 }
